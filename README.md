@@ -17,3 +17,7 @@ addEventListener('message', (event) => { this.model.image = event.data }, false)
 1. Copy and paste the content of Fieldtype.js into the online plugin editor
 2. Exchange YOUR_ASSET_MANAGER_URL with the url of your asset manager
 3. Add the option ```apiKey``` to the field type
+
+In the end you should have your plugin available in the schema definition of a field:
+
+![](http://a.storyblok.com/f/51376/2504x1506/2e45a54d84/media.jpg)
